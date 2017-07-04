@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import time
 
 import mandelbrot
-# import pyximport
-# pyximport.install()
-# import cython_mandelbrot as mandelbrot
+#import pyximport
+#pyximport.install()
+#import cython_mandelbrot as mandelbrot
 
 t1 = time.clock()
 mdl = mandelbrot.comp_mandelbrot( 1024, 768, 4 )
